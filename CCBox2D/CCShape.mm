@@ -111,8 +111,10 @@ static b2BlockAllocator *_allocator;
     
     if(_fixtureDef)
         _fixtureDef->density = density;
-    else if(_fixture)
+    else if(_fixture) {
         _fixture->SetDensity(density);
+        _fixture->GetBody()->ResetMassData();
+    }
     else
         THROW_EXCEP();
 }
