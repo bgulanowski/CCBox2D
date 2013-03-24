@@ -3,7 +3,7 @@
 //  CCBox2D
 //
 //  Created by Brent Gulanowski on 12-08-15.
-//  Copyright (c) 2012 Marketcircle Inc. All rights reserved.
+//  Copyright (c) 2013 Lichen Labs. All rights reserved.
 //
 
 #import <Cocos2DKit/Cocos2DKit.h>
